@@ -70,7 +70,7 @@ const question_seriesById = [
     }
   ]; 
 
-// Requête API - Recherche de héro par nom exact - Affiche l'ID, Description, Comics, Séries, Stories, Events disponibles.
+// Requête API - Recherche de héros par nom exact - Affiche l'ID, Description, Comics, Séries, Stories, Events disponibles.
 
 if (program.charactersByName) {
     
@@ -138,7 +138,7 @@ if (program.charactersByName) {
 
 } 
 
-// Requête API - Recherche de comics par ID de héro - Affiche l'ID du comic et le titre
+// Requête API - Recherche de comics par ID de héros - Affiche l'ID du comic et le titre
 
 else if (program.comicsByCharacterId) {
     
@@ -162,7 +162,6 @@ else if (program.comicsByCharacterId) {
             comics.forEach(element => {           
                 
                 table.push([element.id, element.title]);    
-                // console.log(chalk.blue("\nID : ") + element.id + chalk.blue(" | Titre : ") + element.title)
             });
             
             console.log(table.toString())
@@ -231,6 +230,8 @@ else if (program.comicsById) {
 
 } 
 
+// Requête API - Recherche de series par ID de héros - Affiche l'ID de la série et le titre
+
 else if (program.seriesByCharacterId) {
     
     inquirer
@@ -265,6 +266,8 @@ else if (program.seriesByCharacterId) {
     })
 
 } 
+
+// Requête API - Recherche de series par ID - Affiche l'ID, le titre, les années, la description, les personnages, les comics, stories et evenements
 
 else if (program.seriesById) {
     
