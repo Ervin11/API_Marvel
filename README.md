@@ -41,15 +41,21 @@ Les différentes types de recherche sont :
 Exemple d'utilisation :
 
 marvel -a : entrer exactement le nom du héros : copier l'ID pour chercher les comics ou séries associées
+
 ou
+
 marvel -b : entrer le nom du héros ou juste les lettres par lesquelles il commence
 
 marvel -c : entrer l'ID du héros : Copier l'ID du comic souhaité pour plus d'informations.
+
 ou 
+
 marvel -e : entrer l'ID du héros : Copier l'ID de la série souhaitée pour plus d'informations.
 
 marvel -d : entrer l'ID du comic pour afficher les informations
+
 ou
+
 marvel -f : entrer l'ID de la série pour afficher les informations
 
 ---------------------------------------------------------------
