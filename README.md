@@ -72,9 +72,9 @@ ou
 
 marvel -e : ID Heros : 1009351 : Copier ID Série souhaitée : 22406
 
-marvel -d : 38524
+marvel -d : Coller : 38524
 
 ou
 
-marvel -f : 22406
+marvel -f : Coller : 22406
 
