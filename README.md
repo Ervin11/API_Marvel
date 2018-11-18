@@ -17,13 +17,13 @@ Modules utilisés :
 
 L'application :
 
-  -a, --charactersByName     Search heros by name and show ID and Description
-  -b, --charactersStartWith  Search heros by beginning characters and show ID and Description
-  -c, --comicsByCharacterId  Search comics by character ID
-  -d, --comicsById           Search comics by ID and show Description and Price
-  -e, --seriesByCharacterId  Search series by Character ID
-  -f, --seriesById           Search series by ID
-  -h, --help                 output usage information
+-  -a, --charactersByName     Search heros by name and show ID and Description
+-  -b, --charactersStartWith  Search heros by beginning characters and show ID and Description
+-  -c, --comicsByCharacterId  Search comics by character ID
+-  -d, --comicsById           Search comics by ID and show Description and Price
+-  -e, --seriesByCharacterId  Search series by Character ID
+-  -f, --seriesById           Search series by ID
+-  -h, --help                 output usage information
 
 --------------------------------------------------------------
 
