@@ -52,3 +52,17 @@ marvel -d : entrer l'ID du comic pour afficher les informations
 ou
 marvel -f : entrer l'ID de la série pour afficher les informations
 
+---------------------------------------------------------------
+
+marvel -a : Hulk
+ou
+marvel -b : H et copier ID héros souhaité
+
+marvel -c : ID Heros : 1009351 : Copier ID Comic souhaité : 38524
+ou
+marvel -e : ID Heros : 1009351 : Copier ID Série souhaitée : 22406
+
+marvel -d : 38524
+ou
+marvel -f : 22406
+
